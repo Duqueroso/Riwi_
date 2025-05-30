@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylep.css"> <!--CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="/Desarrollo/HTML/images/web.png" type="image/x-icon"> <!--Favicon-->
+    <title>My Personal Portfolio</title>
+</head>
+<body>
+    <!--Prueba-->
+    <header>  <!--Header contains title and navigation -->
+        <h1>Brayan Duque - Riwi Developer</h1>
+        <nav> <!--The Navegation Bar-->
+            <a href="#sobreMi">About me</a>
+            <a href="#proyectos">Projects</a>
+            <a href="#contacto">Contact</a>
+        </nav>
+    </header>
+    
+    <main> <!--Main contains aboutme, skills and projects -->
+        <section id="sobreMi">
+            <h2>About me</h2>
+            <p>
+                Hello World, My name is Brayan Duque, I'm 25 years old and i like technology. I have 8 year of experience in the TIC's sector and I love learning new things, informing myself every day about new technologies and how they can serve me for my life. I don't like to always stay with the same thing, but look at what other news there are and make changes, learning more and expanding the knowledge that is what satisfies me the most.
+            </p>
+        </section>
+        <img src="/Desarrollo/HTML/images/BD.jpeg" alt="Foto de Brayan Duque" width="200px">
+        <h2>Skills</h2>
+        <ul> <!--List of the skills-->
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>Git</li>
+            <li>GitHub</li>
+        </ul>
+        <section id="proyectos">
+            <h2>PORTFOLIO</h2>
+            <h3>In this project I show my portfolio and the technologies I manage</h3>
+            <img src="/Riwi/Desarrollo/HTML/images/Porfolio.png" alt="Imagen del Proyecto">
+        </section>
+        <table> <!-- Table of projects-->
+            <tr>
+                <th>Name project</th>
+                <th>Technology used</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>Portfolio Website</td>
+                <td>HTML5</td>
+                <td> <a href="#">View project</a></td>
+            </tr>
+        </table>
+    </main>
+
+    <footer> <!--Footer contains contact and icons-->
+        <section id="contacto">
+            <form action="">
+                <h2>CONTACT</h2>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="message">message</label>
+                <textarea name="message" id="message" rows="4" required>message</textarea>
+                <input type="submit" value="Send">
+            </form>
+            <div id="icons">
+                <a href="https://github.com/Duqueroso"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/brayan-duque/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/duqueroso_/"><i class="fa-brands fa-instagram"></i></a>
+            </div>   
+        </section>
+    </footer>
+    
+</body>
+</html>

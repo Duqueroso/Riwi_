@@ -1,0 +1,43 @@
+.container {
+    background-color: gray;
+    display: flex;
+    
+}
+
+.infop {
+    background-color: aliceblue;
+    margin: 20px;
+    
+}
+
+#foto {
+    border-radius: 50%;
+    margin: 5px;
+    width: 200px;
+}
+
+h2 {
+    color: cornflowerblue;
+    margin: 5px;
+}
+
+h3 {
+    color: cornflowerblue;
+    margin: 5px;
+}
+
+.datos {
+    border: 3px;
+    border-color: black;
+}
+
+.navegacion {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20%;
+    z-index: 100;
+    margin: 10px;
+    background-color: aqua;
+}
+

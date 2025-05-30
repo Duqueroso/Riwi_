@@ -1,0 +1,54 @@
+
+body section {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color:aliceblue;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 320px;
+    padding: 40px;
+}
+
+section button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 100px;
+    width: 150px;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: transparent;
+    border-color: aliceblue;
+    color: aliceblue;
+}
+
+img {
+    width: 50px;
+}
+
+section .sedan {
+    background-color: hsl(31, 77%, 52%);
+}
+
+section .suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+section .luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+footer {
+    position: static;
+    padding: 25px;
+    text-align: center;
+}

@@ -1,0 +1,229 @@
+body {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 5px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#title {
+    background-color: cornflowerblue;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 500px;
+    margin: 10px auto;
+}
+
+main .infop {
+    border-width: 5px;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+main .infop #foto {
+    border: 2px solid black;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease;
+    width: 180px; /* Un poco más grande */
+    height: 180px; /* Para mantener la proporción circular */
+    object-fit: cover; /* Para que la imagen cubra el área */
+}
+
+img:hover {
+    transform: scale(1.05) rotate(5deg); /* Efecto hover interesante */
+}
+
+
+main .infop .datos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    margin-top: 5px;
+    
+}
+
+main .infop .datos ul li {
+    padding: 5px;
+    list-style-type:circle;
+}
+
+h2 {
+    color: cornflowerblue;
+}
+
+h3 {
+    color: cornflowerblue;
+}
+
+
+main .infoe .perfil {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 2px 10px;
+    text-align: justify;
+    width: 60%;
+    margin: 12px auto;
+}
+
+main .infoe .perfil:hover {
+    transform: scale(1.15);
+    transition: transform 0.3s ease-in-out;
+}
+
+main .infoe .formacion {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+
+main .infoe .formacion .academia {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 2px 10px;
+    margin: 10px auto;
+    text-align: justify;
+    transition: background-color 2s ease;
+}
+
+main .infoe .formacion .academia:hover {
+    transform: scale(1.15);
+    transition: transform 0.3s ease;
+}
+
+main .infoe .formacion .laboral {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 2px 10px;
+    margin: 10px auto;
+    text-align: justify;
+}
+
+main .infoe .formacion .laboral:hover {
+    transform: scale(1.15);
+    transition: transform 0.3s ease-in-out
+}
+
+main .infoe .skills .skill {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+main .infoe .skills .tecnicas{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 2px 10px;
+    margin: 10px auto;
+    text-align: justify;
+}
+
+main .infoe .skills .tecnicas:hover {
+    transform: scale(1.15);
+    transition: transform 0.3s ease-in-out
+}
+
+main .infoe .skills .blandas{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 2px 10px;
+    margin: 10px auto;
+    text-align: justify;
+}
+
+main .infoe .skills .blandas:hover {
+    transform: scale(1.15);
+    transition: transform 0.3s ease-in-out
+}
+
+main .infoe .referencias {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+
+main .infoe .laborales {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 2px 10px;
+    margin: 10px auto;
+    text-align: justify;
+}
+
+main .infoe .laborales:hover {
+    transform: scale(1.15);
+    transition: transform 0.3s ease-in-out
+}
+
+main .infoe .personales {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 2px 10px;
+    margin: 10px auto;
+    text-align: justify;
+}
+
+main .infoe .personales:hover {
+    transform: scale(1.15);
+    transition: transform 0.3s ease-in-out
+}
+
+.navegacion ul li {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.navegacion ul li a {
+    color: antiquewhite;
+
+}
+
+.navegacion ul {
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content:center;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+.navegacion ul li a:hover {
+    transform: scale(1.15);
+    transition: transform 0.3s ease-in-out;
+    color:black
+}
+

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)http://127.0.0.1:5500/Riwi/Desarrollo/HTML/hvn.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+<link rel="stylesheet" href="./Document_files/style.css"></head>
+<body>
+    
+    <div class="container">
+
+        <div class="navegacion">
+            menu
+        </div>
+
+        <div class="infop">
+            <img id="foto" src="./Document_files/BD.jpeg" alt="Foto Brayan Duque">
+            <div class="datos">
+                <h2>Datos Personales</h2>
+                <ul>
+                    <li>Brayan Duque</li>
+                    <li>25 años</li>
+                    <li>duquetb101@gmail.com</li>
+                    <li><a href="https://www.linkedin.com/in/brayan-duque/">linkedin</a></li>
+                </ul>
+            </div>
+            
+        </div>
+
+        <div class="infoe">
+
+            <div class="perfil">
+
+                <h3>Perfil Profesional</h3>
+                <p>Tengo 8 años de experiencia en el mundo tecnologico, prestando mi servicio de lider de sistemas en PRESENCIA Colombo Suiza, donde he logrado desarrollar habilidades como trabajo en equipo, resolución de probleas, trabajo bajo presión, entre otros. Mi experiencia se basa en mesa de ayuda en todo tipo de problematicas como hardware, software, redes, facturacion y muchos mas.</p>
+
+            </div>
+
+            <div>
+
+                <h3>Formación Académica</h3>
+                <ul>
+                    <li>Tecnico en Sistemas - 2016 - SENA</li>
+                </ul>
+
+                <h3>Experiencia Laboral</h3>
+                <ul>
+                    <li>PRESENCIA Colombo Suiza - (2021 - 2025 - Lider de sistemas)</li>
+                    <li>PRESENCIA Colombo Suiza - (2018 - 2020 - Auxiliar de sistemas)</li>
+                    <li>PRESENCIA Colombo Suiza - (2017 - 2018 - Aprendiz de sistemas)</li>
+                </ul>
+
+            </div>
+
+            <div>
+
+                <h3>Habilidades</h3>
+                <ul>
+                    <h4>Tecnicas</h4>
+                    <li>Manejo de ofimatica</li>
+                    <li>Maneja de Google Workspace</li>
+                    <li>Software contable</li>
+                    <h4>Blandas</h4>
+                    <li>Comunicacion asertiva</li>
+                    <li>Liderazgo</li>
+                    <li>Respeto</li>
+                </ul>
+
+                <h3>Idiomas</h3>
+                <ul>
+                    <li>Español Nativo</li>
+                    <li>ingles Basico - A2</li>
+                </ul>
+
+            </div>
+
+            <div>
+                <h2 style="color: cornflowerblue;">Referencias</h2>
+                <ul>
+                    <h3>Laborales</h3>
+                    <li>Natali Yepes - Lider Administrativa - 3164289333</li>
+                    <li>Claudia Burgos - Lider RRHH - 3164289333</li>
+                </ul>
+                <ul>
+                    <h3>Personales</h3>
+                    <li>Luisa Trujillo - Madre - 3216969119</li>
+                    <li>Jhon Duque - Padre - 3216969119</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
