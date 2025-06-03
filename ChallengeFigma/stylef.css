@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: white;
+    display: flex;
+}
+
+main {
+    display: flex; 
+    flex-direction: column;
+    background-color: #333333;
+    width: 428px;
+    height: 926px;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: "Itim",cursive;
+}
+
+.back {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.back img {
+    margin-right:  0px;
+}
+
+.back h1 {
+    color: white;
+    padding-left: 0px;
+}
+
+.form {
+   
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    background-color: #252424;
+    padding: 40px;
+    margin: 20px 40px;
+    justify-content: flex-start;
+    border-radius: 10px;
+    border-bottom: 3px solid #FDB623;
+    border-top: 3px solid #FDB623;
+}
+
+.form form img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 0px 60px 0px;
+    
+}
+
+main .form form label{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+main .form form input {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #333333;
+    margin: 5px 0px 30px 0px;
+    padding: 10px;
+    border: 2px solid rgb(101, 101, 101);
+    box-shadow: 0 2px 10px rgb(144, 144, 144);
+    outline: none;
+    color: white;
+}
+
+.form form a {
+    color: #333333;
+    background-color: #FDB623;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Itim",cursive;
+}
+
+.form form a:hover{
+    cursor: pointer;
+}
+

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: white;
+    display: flex;
+}
+
+main {
+    display: flex; 
+    flex-direction: column;
+    background-color: #333333;
+    width: 428px;
+    height: 926px;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: "Itim",cursive;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
