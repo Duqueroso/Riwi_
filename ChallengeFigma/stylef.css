@@ -31,10 +31,6 @@ main {
     padding-left: 0px;
 }
 
-.form {
-   
-}
-
 .form form{
     display: flex;
     flex-direction: column;
